@@ -153,11 +153,11 @@ export function RoadmapSection() {
                         >
                           {step.phase}
                         </span>
-                        <h3 className="text-sm font-bold leading-snug text-primary">
+                        <h3 className="text-base font-bold leading-snug text-primary">
                           {step.title}
                         </h3>
                       </div>
-                      <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+                      <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                         {step.description}
                       </p>
                     </div>

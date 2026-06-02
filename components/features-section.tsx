@@ -35,8 +35,8 @@ export function FeaturesSection() {
                 <span className="text-3xl font-bold text-accent sm:text-4xl">
                   90%
                 </span>
-                <span className="text-sm text-primary/80">
-                  が24歳〜35歳
+                <span className="text-base font-semibold text-primary/85">
+                  が20代～30代
                 </span>
               </div>
 
@@ -61,11 +61,11 @@ export function FeaturesSection() {
               />
 
               <div className="mt-5 inline-flex items-baseline gap-1 rounded-full bg-accent/20 px-4 py-2">
-                <span className="text-sm text-primary/80">3週間で</span>
+                <span className="text-base font-semibold text-primary/85">3週間で</span>
                 <span className="text-2xl font-bold text-accent sm:text-3xl">
                   750人
                 </span>
-                <span className="text-sm text-primary/80">登録</span>
+                <span className="text-base font-semibold text-primary/85">登録</span>
               </div>
 
               <h3 className="mt-4 text-xl font-bold text-primary sm:text-2xl">
@@ -92,7 +92,7 @@ export function FeaturesSection() {
                 <span className="text-2xl font-bold text-accent sm:text-3xl">
                   新世代
                 </span>
-                <span className="text-sm text-primary/80">に届ける</span>
+                <span className="text-base font-semibold text-primary/85">に届ける</span>
               </div>
 
               <h3 className="mt-4 text-xl font-bold text-primary sm:text-2xl">

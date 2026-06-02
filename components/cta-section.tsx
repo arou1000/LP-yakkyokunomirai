@@ -51,7 +51,7 @@ export function CTASection() {
         </div>
 
         {/* Trust text */}
-        <p className="mt-8 text-sm text-primary-foreground/60">
+        <p className="mt-8 text-sm text-primary-foreground/75">
           申し込みは無料です。
           <br />
           ご不明な点がございましたら、公式LINEよりお気軽にお問い合わせください。

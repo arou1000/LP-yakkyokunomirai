@@ -50,7 +50,7 @@ export function HeroSection() {
         </div>
 
         {/* Trust badges - Small and clean */}
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-xs font-semibold text-primary/80 sm:mt-6 sm:gap-5 sm:text-sm">
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-sm font-semibold text-primary sm:mt-6 sm:gap-5">
           <span className="flex items-center gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_8px_rgba(16,185,129,0.75)]" />
             仲介手数料0円
