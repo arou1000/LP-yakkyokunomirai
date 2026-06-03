@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, Shield } from "lucide-react";
+import { ArrowRight, Check, Shield } from "lucide-react";
 
 export function PricingSection() {
   return (
@@ -36,21 +36,22 @@ export function PricingSection() {
                   <p className="text-sm font-semibold text-muted-foreground">
                     初期費用
                   </p>
-                  <div className="mt-3 flex items-baseline gap-3">
+                  <div className="mt-3 flex items-center gap-3">
                     <span className="text-lg text-muted-foreground line-through">
-                      通常100,000円
+                      通常33,000円
+                    </span>
+                    <span className="flex items-center gap-1 text-lg font-medium text-muted-foreground">
+                      <ArrowRight className="size-4 shrink-0" aria-hidden="true" />
+                      0円
                     </span>
                   </div>
-                  <div className="mt-2 flex items-baseline gap-1">
+                  <div className="mt-2">
                     <span className="text-4xl font-bold text-accent sm:text-5xl">
-                      33,000
-                    </span>
-                    <span className="text-lg font-medium text-muted-foreground">
-                      円（税込）
+                      無料
                     </span>
                   </div>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    ※審査通過時のみ発生
+                    ※期間限定
                   </p>
                 </div>
 
@@ -68,7 +69,7 @@ export function PricingSection() {
                     </span>
                   </div>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    最低6ヶ月契約
+                    年間契約
                   </p>
                 </div>
               </div>
